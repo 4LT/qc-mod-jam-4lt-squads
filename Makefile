@@ -1,7 +1,7 @@
-MODDIR=$(QUAKEDIR)/mj_4lt
+MODDIR=$(QUAKEDIR)/mj_4lt_squads
 PROGS=progs.dat
 OUTPUT=$(MODDIR)/$(PROGS)
-FGD=mj_4lt.fgd
+FGD=mj_4lt_squads.fgd
 FGD_OUT=$(MODDIR)/$(FGD)
 
 .PHONY: all chkdir install clean
